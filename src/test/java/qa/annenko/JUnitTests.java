@@ -21,7 +21,7 @@ public class JUnitTests {
     @MethodSource("nameOfTest")
 
     @ParameterizedTest(name = "Проверка для элемента {0}")
-    void Test(String testData) {
+    void nameOfTest(String testData) {
 
     }
 }
