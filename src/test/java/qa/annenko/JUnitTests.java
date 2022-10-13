@@ -31,7 +31,7 @@ public class JUnitTests {
         $(".header-city__i").click();
         $(".select-field__view-button").click();
         $(".select-field__option:first-child").click();
-        $("#modal-content-41")
+        $(".city-selector__list")
                 .shouldHave(text("Москва"));
     }
 }
